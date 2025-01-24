@@ -3,6 +3,3 @@ python-dotenv
 numpy
 pymongo
 certifi
-
-
-#-e .
