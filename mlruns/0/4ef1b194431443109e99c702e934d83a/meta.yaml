@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/NerworkSecurity/mlruns/0/4ef1b194431443109e99c702e934d83a/artifacts
+end_time: 1737894161663
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ef1b194431443109e99c702e934d83a
+run_name: judicious-zebra-53
+run_uuid: 4ef1b194431443109e99c702e934d83a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737894151105
+status: 3
+tags: []
+user_id: ADMIN

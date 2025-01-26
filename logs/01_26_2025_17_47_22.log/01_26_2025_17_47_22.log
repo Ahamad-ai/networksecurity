@@ -1,0 +1,29 @@
+[ 2025-01-26 17:47:29,218] 15 root - INFO - Initiate the data ingestion
+[ 2025-01-26 17:47:30,955] 68 root - INFO - Performed train test split on the dataframe
+[ 2025-01-26 17:47:30,956] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-26 17:47:30,956] 76 root - INFO - Exporting train and test file path.
+[ 2025-01-26 17:47:31,041] 84 root - INFO - Exported train and test file path.
+[ 2025-01-26 17:47:31,043] 20 root - INFO - Data ingestion completed
+[ 2025-01-26 17:47:31,043] 22 root - INFO - Initiate the data validation
+[ 2025-01-26 17:47:31,139] 32 root - INFO - Required number of columns:2
+[ 2025-01-26 17:47:31,139] 33 root - INFO - Data frame has columns : 31
+[ 2025-01-26 17:47:31,140] 32 root - INFO - Required number of columns:2
+[ 2025-01-26 17:47:31,140] 33 root - INFO - Data frame has columns : 31
+[ 2025-01-26 17:47:31,140] 46 root - INFO - Expected numerical columns: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[ 2025-01-26 17:47:31,140] 47 root - INFO - Missing numerical columns: []
+[ 2025-01-26 17:47:31,140] 46 root - INFO - Expected numerical columns: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[ 2025-01-26 17:47:31,140] 47 root - INFO - Missing numerical columns: []
+[ 2025-01-26 17:47:31,445] 27 root - INFO - data validation completed
+[ 2025-01-26 17:47:31,445] 29 root - INFO - data Transformation started
+[ 2025-01-26 17:47:31,445] 63 root - INFO - Entered initiate_data_transformation method off DataTransformation class
+[ 2025-01-26 17:47:31,445] 65 root - INFO - Starting data transformation
+[ 2025-01-26 17:47:31,482] 49 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-01-26 17:47:31,483] 54 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-01-26 17:47:31,500] 47 root - INFO - Entered theh save_object method of MainUtils class
+[ 2025-01-26 17:47:31,503] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-26 17:47:31,506] 34 root - INFO - data Transformation completed
+[ 2025-01-26 17:47:31,506] 36 root - INFO - Model Training started
+[ 2025-01-26 17:52:48,404] 47 root - INFO - Entered theh save_object method of MainUtils class
+[ 2025-01-26 17:52:48,405] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-26 17:52:48,405] 127 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\01_26_2025_17_47_23\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912005664003236, precision_score=0.9894991922455574, recall_score=0.9929078014184397), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912005664003236, precision_score=0.9894991922455574, recall_score=0.9929078014184397))
+[ 2025-01-26 17:52:48,413] 41 root - INFO - Model Training artifact created

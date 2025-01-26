@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/NerworkSecurity/mlruns/0/c2d829ff5d9e4523a6788871fc1887bf/artifacts
+end_time: 1737894715439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c2d829ff5d9e4523a6788871fc1887bf
+run_name: wistful-deer-978
+run_uuid: c2d829ff5d9e4523a6788871fc1887bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737894708689
+status: 3
+tags: []
+user_id: ADMIN
