@@ -3,7 +3,7 @@ python-dotenv
 #pymongo==4.10.1
 pymongo
 numpy
-pymongo[srv]==3.6
+pymongo[srv]==4.10.1
 certifi
 scikit-learn
 dill
@@ -12,5 +12,5 @@ mlflow
 dagshub
 fastapi
 uvicorn
-pythhon-multipart
+python-multipart
 #-e .
