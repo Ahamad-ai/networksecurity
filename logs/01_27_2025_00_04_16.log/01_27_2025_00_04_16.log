@@ -1,6 +1,0 @@
-[ 2025-01-27 00:04:20,992] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2025-01-27 00:04:20,999] 107 dagshub - INFO - Accessing as Ahamad-ai
-[ 2025-01-27 00:04:21,367] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Ahamad-ai/networksecurity "HTTP/1.1 200 OK"
-[ 2025-01-27 00:04:21,726] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2025-01-27 00:04:21,738] 107 dagshub - INFO - Initialized MLflow to track repo "Ahamad-ai/networksecurity"
-[ 2025-01-27 00:04:21,741] 107 dagshub - INFO - Repository Ahamad-ai/networksecurity initialized!
