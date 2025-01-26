@@ -12,5 +12,5 @@ mlflow
 dagshub
 fastapi
 uvicorn
-
+pythhon-multipart
 #-e .
